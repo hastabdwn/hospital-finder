@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "https://use.api.co.id/:path*"
+      "source": "/api/hospitals/indonesia/:path*",
+      "destination": "https://use.api.co.id/hospitals/indonesia/:path*"
     }
   ]
 }
