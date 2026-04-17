@@ -1,9 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.DEV
-    ? import.meta.env.VITE_API_BASE_DEV
-    : import.meta.env.VITE_API_BASE_URL,
+  baseURL: '/api/hospitals/indonesia',
   headers: { 'x-api-co-id': import.meta.env.VITE_API_KEY }
 });
 
